@@ -15,10 +15,12 @@ and memory usage, type of resource request: job or alloc_set, job loads at each
 cluster etc. will lead to some very helpful insights. These insights can help us draw
 useful conclusions about machines, jobs, tasks and resource usage and in turn would
 aid in better allocation and management of resources.
+
 Our objective is to analyze Borg Cluster data to observe:
-1.1. Distribution of jobs across clusters
-1.2. Time taken to transition states.
-1.3. Frequency of jobs failing/succeeding at the end of their life cycles.
-1.4. Memory consumption of jobs across clusters
-1.5. Predict request success or failure and event or state of trace using applicable
+
+1. Distribution of jobs across clusters
+2. Time taken to transition states.
+3. Frequency of jobs failing/succeeding at the end of their life cycles.
+4. Memory consumption of jobs across clusters
+5. Predict request success or failure and event or state of trace using applicable
 features.
